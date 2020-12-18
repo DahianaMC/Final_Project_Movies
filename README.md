@@ -69,7 +69,7 @@ PCA Hierarchical Clustering: We tried PCA_Hierarchical_Clustering but the explai
 We also tried the random forest because the feature importance, but the model did not work very well trying to get the score_prediction.
 
 ### **Machine Learning Final Results
-- Logistic Regression Model
+- Linear Regression Models
   - Output: Score
   - Input: Encoded data (company, directors, revenue language, writer, star, country, genre, rating), budget, title, votes, runtime, released year, popularity
   - **Data Training and Testing split:**
@@ -85,7 +85,7 @@ We also tried the random forest because the feature importance, but the model di
   - Add class to dataset.
 
 - We added the classes from KMeans model and run the Logistic Regression Model to see if we can get better score prediction.
-- Logistic Regression ElasticNet.
+- Linear Regression ElasticNet.
   - ElasticNet: r2 = 0.42.
   - Add score_prediction to dataset.
 
